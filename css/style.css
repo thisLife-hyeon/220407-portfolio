@@ -36,7 +36,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .wrapper { margin-top: 5rem; }
 
-.header { width: 100vw; height: 60rem; background-image: url(../../img/mainbg.png); background-repeat: no-repeat; background-position: center; background-size: cover; }
+.header { width: 100vw; height: 60rem; background-image: url(../img/mainbg.png); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 .header__txt { position: relative; top: 30%; left: 10%; }
 
@@ -120,11 +120,11 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro1__txtbox2 .iconbox__icon { width: 8.8rem; height: 8.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #f7f7f7; border-radius: 1.5rem; }
 
-.pro1__txtbox2 .iconbox__icon--1 { background-image: url(../../img/i-notice.png); }
+.pro1__txtbox2 .iconbox__icon--1 { background-image: url(../img/i-notice.png); }
 
-.pro1__txtbox2 .iconbox__icon--2 { background-image: url(../../img/i-donate.png); }
+.pro1__txtbox2 .iconbox__icon--2 { background-image: url(../img/i-donate.png); }
 
-.pro1__txtbox2 .iconbox__icon--3 { background-image: url(../../img/i-basket.png); }
+.pro1__txtbox2 .iconbox__icon--3 { background-image: url(../img/i-basket.png); }
 
 .dots { width: 8%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
@@ -148,7 +148,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro2__top { width: 100vw; height: 100rem; background-color: #535353; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; z-index: -1; color: #fff; }
 
-.pro2__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../../img/jeju-mockup.png); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; }
+.pro2__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/jeju-mockup.png); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; }
 
 .pro2__top h4 { margin-bottom: 2rem; }
 
@@ -156,7 +156,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro2__top .pro2__img { width: 46.8rem; height: 66.3rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro2__top .pro2__img--1 { background-image: url(../../img/jeju-info.png); }
+.pro2__top .pro2__img--1 { background-image: url(../img/jeju-info.png); }
 
 .pro2 .dot--jj1 { background-color: #214f26; }
 
@@ -184,7 +184,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3__top { width: 100vw; height: 100rem; background-color: #535353; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; z-index: -1; color: #fff; }
 
-.pro3__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../../img/sun-mockup.png); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; }
+.pro3__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/sun-mockup.png); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; }
 
 .pro3__top h4 { margin-bottom: 2rem; }
 
@@ -192,7 +192,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3__top .pro3__img { width: 46.8rem; height: 66.3rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro3__top .pro3__img--1 { background-image: url(../../img/sun-illust.jpg); }
+.pro3__top .pro3__img--1 { background-image: url(../img/sun-illust.jpg); }
 
 .pro3__top .pro3__img--2 p, .pro3__top .pro3__img--2 span { display: block; }
 
@@ -214,13 +214,13 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3__imgcontain .imgcontain__img { width: 27.6rem; height: 27.6rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro3__imgcontain .imgcontain__img--1 { background-image: url(../../img/sun_1.png); }
+.pro3__imgcontain .imgcontain__img--1 { background-image: url(../img/sun-1.png); }
 
-.pro3__imgcontain .imgcontain__img--2 { background-image: url(../../img/sun_2.png); }
+.pro3__imgcontain .imgcontain__img--2 { background-image: url(../img/sun-2.png); }
 
-.pro3__imgcontain .imgcontain__img--3 { background-image: url(../../img/sun_3.png); }
+.pro3__imgcontain .imgcontain__img--3 { background-image: url(../img/sun-3.png); }
 
-.pro3__imgcontain .imgcontain__img--4 { background-image: url(../../img/sun_4.png); }
+.pro3__imgcontain .imgcontain__img--4 { background-image: url(../img/sun-4.png); }
 
 .pro3__imgcontain p, .pro3__imgcontain span { display: block; text-align: center; font-size: 2rem; }
 

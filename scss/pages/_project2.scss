@@ -13,7 +13,7 @@
 
     &::before {
       @include pseudo;
-      background: url(../../img/jeju-mockup.png);
+      background: url(../img/jeju-mockup.png);
       opacity: 0.5;
       @include bgimg;
       z-index: -1;
@@ -33,7 +33,7 @@
         height: 66.3rem;
         @include bgimg;
         &--1 {
-          background-image: url(../../img/jeju-info.png);
+          background-image: url(../img/jeju-info.png);
         }
       }
     }

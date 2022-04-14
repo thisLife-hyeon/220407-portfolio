@@ -13,7 +13,7 @@
 
     &::before {
       @include pseudo;
-      background: url(../../img/sun-mockup.png);
+      background: url(../img/sun-mockup.png);
       opacity: 0.5;
       @include bgimg;
       z-index: -1;
@@ -33,7 +33,7 @@
         height: 66.3rem;
         @include bgimg;
         &--1 {
-          background-image: url(../../img/sun-illust.jpg);
+          background-image: url(../img/sun-illust.jpg);
         }
         &--2 {
           p,
@@ -92,16 +92,16 @@
       height: 27.6rem;
       @include bgimg;
       &--1 {
-        background-image: url(../../img/sun_1.png);
+        background-image: url(../img/sun-1.png);
       }
       &--2 {
-        background-image: url(../../img/sun_2.png);
+        background-image: url(../img/sun-2.png);
       }
       &--3 {
-        background-image: url(../../img/sun_3.png);
+        background-image: url(../img/sun-3.png);
       }
       &--4 {
-        background-image: url(../../img/sun_4.png);
+        background-image: url(../img/sun-4.png);
       }
     }
     p,
