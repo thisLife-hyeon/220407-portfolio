@@ -1,0 +1,94 @@
+.pro2 {
+  width: 100vw;
+
+  &__top {
+    width: 100vw;
+    height: 100rem;
+    background-color: $color--darkgray;
+    @include flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+    color: $color--white;
+
+    &::before {
+      @include pseudo;
+      background: url(../../img/jeju-mockup.png);
+      opacity: 0.5;
+      @include bgimg;
+      z-index: -1;
+    }
+
+    h4 {
+      margin-bottom: 2rem;
+    }
+
+    .pro2 {
+      &__imgbox {
+        display: flex;
+        margin-top: 4rem;
+      }
+      &__img {
+        width: 46.8rem;
+        height: 66.3rem;
+        @include bgimg;
+        &--1 {
+          background-image: url(../../img/jeju-info.png);
+        }
+      }
+    }
+  }
+  .dot {
+    &--jj1 {
+      background-color: #214f26;
+    }
+    &--jj2 {
+      background-color: #a6ce39;
+    }
+    &--jj3 {
+      background-color: #9fdae6;
+    }
+  }
+
+  &__bottom {
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: slateblue;
+
+    .pro2 {
+      &__color {
+        width: 20rem;
+        height: 10rem;
+        display: flex;
+      }
+      &__txt {
+        width: 106rem;
+
+        .pro2__font {
+          width: 40rem;
+          height: 30rem;
+          background-color: #000;
+        }
+        .pro2__des {
+          width: 64rem;
+          height: 30rem;
+          background-color: #000;
+        }
+      }
+    }
+  }
+}
+
+.dot {
+  &--4 {
+    background-color: #214f26;
+  }
+  &--5 {
+    background-color: #a6ce39;
+  }
+  &--6 {
+    background-color: #9fdae6;
+  }
+}

@@ -1,0 +1,167 @@
+.gnb {
+  width: 100%;
+  height: 5rem;
+  background-color: $color--white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
+  &__right,
+  h5 {
+    margin: 0 4rem;
+  }
+
+  h5 {
+    letter-spacing: -0.1rem;
+    cursor: pointer;
+    color: $color--darkgray;
+  }
+
+  &__right {
+    width: 64rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    li,
+    button {
+      font-size: 2rem;
+      cursor: pointer;
+      font-weight: normal;
+    }
+
+    li:hover {
+      color: $color--pink;
+    }
+
+    button {
+      @include button;
+      border-color: $color--pink;
+      color: $color--pink;
+    }
+  }
+}
+
+.wrapper {
+  margin-top: 5rem;
+}
+
+.header {
+  width: 100vw;
+  height: 60rem;
+  background-image: url(../../img/mainbg.png);
+  @include bgimg;
+
+  &__txt {
+    position: relative;
+    top: 30%;
+    left: 10%;
+
+    p {
+      font-size: 2.4rem;
+    }
+  }
+}
+
+.profile {
+  width: 130rem;
+  height: 92rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__img {
+    width: 39rem;
+    height: 50rem;
+    background-image: url(../img/profile.png);
+    //background-image: url(../img/test2.jpg);
+    @include bgimg;
+
+    &::after {
+      content: "";
+      width: 84%;
+      height: 90%;
+      display: inline-block;
+      position: relative;
+      top: -12rem;
+      left: -12rem;
+      z-index: -1;
+      background-color: $color--lightpink;
+    }
+  }
+
+  &__txt {
+    width: 76rem;
+    height: 50rem;
+
+    h3 {
+      margin-top: -1.4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.skills__boxs {
+  width: 76rem;
+  height: 6rem;
+  display: flex;
+  li {
+    width: 27rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: $color--darkgray;
+    }
+  }
+
+  .skills__box {
+    width: 4.4rem;
+    height: 4.4rem;
+    @include bgimg;
+    margin-right: 2rem;
+  }
+
+  .skill-- {
+    &1 {
+      background-image: url(../img/skill1.png);
+    }
+    &2 {
+      background-image: url(../img/skill2.png);
+    }
+    &3 {
+      background-image: url(../img/skill3.png);
+    }
+    &4 {
+      background-image: url(../img/skill4.png);
+    }
+    &5 {
+      background-image: url(../img/skill5.png);
+    }
+    &6 {
+      background-image: url(../img/skill6.png);
+    }
+  }
+}
+
+.profile__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.8rem;
+  margin-top: 4rem;
+
+  h6 {
+    color: $color--gray;
+    margin-bottom: 1.8rem;
+  }
+}

@@ -1,0 +1,118 @@
+.pro3 {
+  width: 100vw;
+
+  &__top {
+    width: 100vw;
+    height: 100rem;
+    background-color: $color--darkgray;
+    @include flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+    color: $color--white;
+
+    &::before {
+      @include pseudo;
+      background: url(../../img/sun-mockup.png);
+      opacity: 0.5;
+      @include bgimg;
+      z-index: -1;
+    }
+
+    h4 {
+      margin-bottom: 2rem;
+    }
+
+    .pro3 {
+      &__imgbox {
+        display: flex;
+        margin-top: 4rem;
+      }
+      &__img {
+        width: 46.8rem;
+        height: 66.3rem;
+        @include bgimg;
+        &--1 {
+          background-image: url(../../img/sun-illust.jpg);
+        }
+        &--2 {
+          p,
+          span {
+            display: block;
+          }
+          &::after {
+            width: 100%;
+            height: 30rem;
+            @include pseudo;
+            background-color: #000;
+            opacity: 0.5;
+            top: 40%;
+            z-index: -1;
+          }
+        }
+      }
+    }
+  }
+  .dot {
+    &--sm1 {
+      background-color: #d97739;
+    }
+    &--sm2 {
+      background-color: #fa5c44;
+    }
+    &--sm3 {
+      background-color: #5267a3;
+    }
+    &--sm4 {
+      background-color: #2a2024;
+    }
+  }
+}
+.pro3 {
+  &__bottom {
+    width: 120rem;
+    height: 80rem;
+    margin: 0 auto;
+
+    h5 {
+      text-align: center;
+      margin-top: 18rem;
+      margin-bottom: 5rem;
+    }
+  }
+  &__imgcontain {
+    display: flex;
+    justify-content: space-between;
+
+    // .imgcontain__list{
+
+    // }
+    .imgcontain__img {
+      width: 27.6rem;
+      height: 27.6rem;
+      @include bgimg;
+      &--1 {
+        background-image: url(../../img/sun_1.png);
+      }
+      &--2 {
+        background-image: url(../../img/sun_2.png);
+      }
+      &--3 {
+        background-image: url(../../img/sun_3.png);
+      }
+      &--4 {
+        background-image: url(../../img/sun_4.png);
+      }
+    }
+    p,
+    span {
+      display: block;
+      text-align: center;
+      font-size: 2rem;
+    }
+    p {
+      margin-top: 3rem;
+      color: $color--darkgray;
+    }
+  }
+}
