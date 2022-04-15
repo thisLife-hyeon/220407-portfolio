@@ -1,5 +1,5 @@
 .gnb {
-  width: 100%;
+  width: 100vw;
   height: 5rem;
   background-color: $color--white;
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 60rem;
   background-image: url(../img/mainbg.png);
   background-color: #fff4e9;

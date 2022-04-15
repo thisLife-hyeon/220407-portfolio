@@ -1,5 +1,6 @@
 .pro1 {
-  width: 100%;
+  width: 100vw;
+  margin: 0 auto;
 
   &__top {
     width: 100%;
@@ -79,6 +80,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 4rem;
+    // background-color: slateblue;
   }
 
   // .color__txt {
