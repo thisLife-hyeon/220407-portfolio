@@ -22,7 +22,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .gnb__right, .gnb h5 { margin: 0 4rem; }
 
-.gnb h5 { letter-spacing: -0.1rem; cursor: pointer; color: #535353; }
+.gnb h5 { letter-spacing: -0.1rem; cursor: pointer; color: hotpink; }
 
 .gnb__right { width: 64rem; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
 
@@ -42,9 +42,9 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .header__txt p { font-size: 2.4rem; }
 
-.profile { width: 130rem; height: 92rem; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #000; }
+.profile { width: 130rem; height: 92rem; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.profile__img { width: 39rem; height: 50rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: aqua; }
+.profile__img { width: 39rem; height: 50rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #f189a0; }
 
 .profile__img::after { content: ""; width: 84%; height: 90%; display: inline-block; position: relative; top: -12rem; left: -12rem; z-index: -1; background-color: #ffdcf0; }
 
@@ -126,7 +126,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro1__txtbox2 .iconbox__icon--3 { background-image: url(../img/i-basket.png); }
 
-.dots { width: 8%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.dots { width: 14rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .dots .dot { width: 3rem; height: 3rem; border-radius: 50%; background-color: aqua; }
 
@@ -247,3 +247,5 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 .arrow-up span { font-size: 5rem; }
 
 .arrow-up.show { opacity: 0.8; }
+
+@media (max-width: 480px) { html { font-size: 5px; } }

@@ -17,7 +17,7 @@
   h5 {
     letter-spacing: -0.1rem;
     cursor: pointer;
-    color: $color--darkgray;
+    color: $color--pink;
   }
 
   &__right {
@@ -79,14 +79,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
 
   &__img {
     width: 39rem;
     height: 50rem;
     // background-image: url(../img/profile.png);
     @include bgimg;
-    background-color: aqua;
+    background-color: rgb(241, 137, 160);
 
     &::after {
       content: "";
