@@ -52,16 +52,20 @@
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 60rem;
   background-image: url(../img/mainbg.png);
+  background-color: #fff4e9;
   @include bgimg;
+  background-size: contain;
 
   &__txt {
     position: relative;
     top: 30%;
     left: 10%;
-
+    // width: 130rem;
+    // height: 92rem;
+    // margin: 0 auto;
     p {
       font-size: 2.4rem;
     }
@@ -75,13 +79,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #000;
 
   &__img {
     width: 39rem;
     height: 50rem;
-    background-image: url(../img/profile.png);
-    //background-image: url(../img/test2.jpg);
+    // background-image: url(../img/profile.png);
     @include bgimg;
+    background-color: aqua;
 
     &::after {
       content: "";
