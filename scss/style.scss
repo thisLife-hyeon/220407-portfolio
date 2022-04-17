@@ -30,9 +30,24 @@
   .gnb {
     height: 10rem;
   }
-  // .pro3__imgcontain {
-  //   width: 70%;
-  //   flex-wrap: wrap;
-  //   justify-content: space-around;
-  // }
+  .pro3__bottom {
+    width: 90vw;
+    height: 140rem;
+    //background-color: aquamarine;
+  }
+  .pro3__imgcontain {
+    width: 80vw;
+    height: 120rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .imgcontain__img {
+      width: 34rem;
+      height: 34rem;
+      margin-bottom: 3rem;
+    }
+    p,
+    span {
+      display: inline;
+    }
+  }
 }

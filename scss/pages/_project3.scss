@@ -80,7 +80,7 @@
 }
 .pro3 {
   &__bottom {
-    width: 120rem;
+    width: 126rem;
     height: 80rem;
     margin: 0 auto;
 
@@ -94,9 +94,10 @@
     display: flex;
     justify-content: space-between;
 
-    // .imgcontain__list{
-
-    // }
+    .imgcontain__list {
+      width: 30rem;
+      margin: 0 auto;
+    }
     .imgcontain__img {
       width: 27.6rem;
       height: 27.6rem;

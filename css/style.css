@@ -218,11 +218,13 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3 .dot--sm4 { background-color: #2a2024; }
 
-.pro3__bottom { width: 120rem; height: 80rem; margin: 0 auto; }
+.pro3__bottom { width: 126rem; height: 80rem; margin: 0 auto; }
 
 .pro3__bottom h5 { text-align: center; margin-top: 18rem; margin-bottom: 5rem; }
 
 .pro3__imgcontain { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.pro3__imgcontain .imgcontain__list { width: 30rem; margin: 0 auto; }
 
 .pro3__imgcontain .imgcontain__img { width: 27.6rem; height: 27.6rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
@@ -260,4 +262,8 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
   .gnb { height: 10rem; } }
 
 @media (max-width: 460px) { html { font-size: 4px; }
-  .gnb { height: 10rem; } }
+  .gnb { height: 10rem; }
+  .pro3__bottom { width: 90vw; height: 140rem; }
+  .pro3__imgcontain { width: 80vw; height: 120rem; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  .pro3__imgcontain .imgcontain__img { width: 34rem; height: 34rem; margin-bottom: 3rem; }
+  .pro3__imgcontain p, .pro3__imgcontain span { display: inline; } }
