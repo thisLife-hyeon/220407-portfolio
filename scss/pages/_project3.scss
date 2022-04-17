@@ -27,6 +27,7 @@
     .pro3 {
       &__imgbox {
         display: flex;
+        justify-content: space-between;
         margin-top: 4rem;
       }
       &__img {
@@ -37,12 +38,17 @@
           background-image: url(../img/sun-illust.jpg);
         }
         &--2 {
+          width: 46.8rem;
+          height: 26rem;
+          margin-top: 20%;
+          margin-right: 4rem;
           h5 {
             margin-bottom: 2rem;
           }
           p,
           span {
             display: block;
+            line-height: 3rem;
           }
           &::after {
             width: 100%;
