@@ -11,14 +11,17 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
 html {
   font-size: 62.5%;
 }
 
 body {
   width: 100vw;
-  overflow-x: hidden;
   font: inherit;
 }
 
