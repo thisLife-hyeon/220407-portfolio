@@ -92,7 +92,7 @@
   }
   &__imgcontain {
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
 
     .imgcontain__list {
       width: 30rem;
@@ -101,6 +101,7 @@
     .imgcontain__img {
       width: 27.6rem;
       height: 27.6rem;
+      margin: 0 auto;
       @include bgimg;
       &--1 {
         background-image: url(../img/sun-1.png);
