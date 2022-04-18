@@ -152,7 +152,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro2__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/jeju-mockup.png); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro2__top h4 { margin-bottom: 2rem; }
+.pro2__top h4 { z-index: 1; margin-bottom: 2rem; }
 
 .pro2__top .pro2__imgbox { z-index: 1; width: 100rem; margin-top: 4rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
@@ -270,15 +270,15 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .arrow-up.show { opacity: 0.8; }
 
-.popup2 { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); z-index: 999; opacity: 0; visibility: hidden; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.popup1, .popup2 { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); z-index: 999; opacity: 0; visibility: hidden; -webkit-transition: all 0.3s; transition: all 0.3s; }
 
-.popup2:target { opacity: 1; visibility: visible; }
+.popup1:target, .popup2:target { opacity: 1; visibility: visible; }
 
-.popup2__content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); height: 90vh; background-color: #fff; -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); border-radius: 3px; }
+.popup1__content, .popup2__content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); height: 90vh; background-color: #fff; -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); border-radius: 3px; }
 
-.popup2__img { display: block; height: 90vh; }
+.popup1__img, .popup2__img { display: block; height: 90vh; }
 
-.popup2__close { border-radius: 50%; color: #fff; z-index: 1000; font-size: 6rem; font-weight: 300; position: fixed; top: 0; right: 0; padding-right: 1rem; }
+.popup1__close, .popup2__close { border-radius: 50%; color: #fff; z-index: 1000; font-size: 5rem; font-weight: 300; position: fixed; top: 0; right: 0; padding-right: 1.2rem; }
 
 @media (max-width: 1338px), (max-width: 760px), (max-width: 460px) { .pro3__bottom { width: 90vw; height: 140rem; }
   .pro3__imgcontain { width: 80vw; height: 120rem; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
@@ -286,24 +286,24 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
   .pro3__imgcontain .imgcontain__img { width: 34rem; height: 34rem; margin-bottom: 3rem; } }
 
 @media (max-width: 1338px) { html { font-size: 8px; }
-  .popup2__content { height: 70vh; }
-  .popup2__img { height: 70vh; } }
+  .popup1__content, .popup2__content { height: 70vh; }
+  .popup1__img, .popup2__img { height: 70vh; } }
 
 @media (max-width: 760px) { html { font-size: 7px; }
   .gnb { height: 10rem; }
-  .popup2__content { height: 70vh; }
-  .popup2__img { height: 70vh; } }
+  .popup1__content, .popup2__content { height: 70vh; }
+  .popup1__img, .popup2__img { height: 70vh; } }
 
 @media (max-width: 662px) { html { font-size: 5px; }
   .gnb { height: 10rem; }
-  .popup2__content { height: 70vh; }
-  .popup2__img { height: 70vh; } }
+  .popup1__content, .popup2__content { height: 70vh; }
+  .popup1__img, .popup2__img { height: 70vh; } }
 
 @media (max-width: 480px) { html { font-size: 4px; }
   .gnb { height: 10rem; }
   .pro3__imgcontain p, .pro3__imgcontain span { display: inline; }
-  .popup2__content { height: 60vh; }
-  .popup2__img { height: 60vh; } }
+  .popup1__content, .popup2__content { height: 60vh; }
+  .popup1__img, .popup2__img { height: 60vh; } }
 
 @media (max-width: 380px) { html { font-size: 4px; }
   .gnb { height: 10rem; }
@@ -312,5 +312,5 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
   .pro3__imgcontain .imgcontain__list { width: 32rem; }
   .pro3__imgcontain .imgcontain__img { width: 30rem; height: 30rem; margin-bottom: 3rem; }
   .pro3__imgcontain p, .pro3__imgcontain span { display: inline; }
-  .popup2__content { height: 50vh; }
-  .popup2__img { height: 50vh; } }
+  .popup1__content, .popup2__content { height: 50vh; }
+  .popup1__img, .popup2__img { height: 50vh; } }
