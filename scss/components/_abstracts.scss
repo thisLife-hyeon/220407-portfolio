@@ -28,6 +28,7 @@ $color--lightpink: #ffdcf0;
   &:hover,
   &:active {
     background-color: $color--lightgray;
+    cursor: pointer;
   }
 }
 
@@ -38,4 +39,11 @@ $color--lightpink: #ffdcf0;
   left: 0px;
   right: 0px;
   bottom: 0px;
+}
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

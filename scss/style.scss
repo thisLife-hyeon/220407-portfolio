@@ -6,6 +6,7 @@
 @import "pages/project2";
 @import "pages/project3";
 @import "pages/footer";
+@import "pages/popup";
 
 @media (max-width: 1338px), (max-width: 760px), (max-width: 460px) {
   .pro3__bottom {
@@ -35,6 +36,14 @@
   html {
     font-size: 8px;
   }
+  .popup2 {
+    &__content {
+      height: 70vh;
+    }
+    &__img {
+      height: 70vh;
+    }
+  }
 }
 
 @media (max-width: 760px) {
@@ -44,6 +53,14 @@
   .gnb {
     height: 10rem;
   }
+  .popup2 {
+    &__content {
+      height: 70vh;
+    }
+    &__img {
+      height: 70vh;
+    }
+  }
 }
 
 @media (max-width: 662px) {
@@ -52,6 +69,14 @@
   }
   .gnb {
     height: 10rem;
+  }
+  .popup2 {
+    &__content {
+      height: 70vh;
+    }
+    &__img {
+      height: 70vh;
+    }
   }
 }
 
@@ -66,6 +91,14 @@
     p,
     span {
       display: inline;
+    }
+  }
+  .popup2 {
+    &__content {
+      height: 60vh;
+    }
+    &__img {
+      height: 60vh;
     }
   }
 }
@@ -98,6 +131,14 @@
     p,
     span {
       display: inline;
+    }
+  }
+  .popup2 {
+    &__content {
+      height: 50vh;
+    }
+    &__img {
+      height: 50vh;
     }
   }
 }

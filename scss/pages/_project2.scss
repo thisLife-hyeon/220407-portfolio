@@ -9,7 +9,6 @@
     @include flex;
     flex-direction: column;
     position: relative;
-    z-index: -1;
     color: $color--white;
 
     &::before {
@@ -17,7 +16,6 @@
       background: url(../img/jeju-mockup.png);
       opacity: 0.5;
       @include bgimg;
-      z-index: -1;
     }
 
     h4 {
@@ -26,6 +24,7 @@
 
     .pro2 {
       &__imgbox {
+        z-index: 1;
         width: 100rem;
         margin-top: 4rem;
         display: flex;
@@ -48,11 +47,27 @@
             display: block;
             line-height: 3rem;
           }
+          .pro2__btn {
+            @include button;
+            width: 14rem;
+            background-color: transparent;
+            color: $color--white;
+            border-color: $color--white;
+            margin-top: 4rem;
+            margin-left: 68%;
+
+            &:hover,
+            &:active {
+              background-color: rgba($color: #000000, $alpha: 0.5);
+              cursor: pointer;
+            }
+          }
         }
       }
     }
   }
   .dot {
+    z-index: 1;
     &--jj1 {
       background-color: #214f26;
     }
